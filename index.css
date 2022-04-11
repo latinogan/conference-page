@@ -1,0 +1,67 @@
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.active {
+  margin-right: 120px;
+}
+
+.fa-bars {
+  color: black;
+}
+
+.topnav #Links {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 80px;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+#Links a {
+  border-bottom: solid 1px #6f6c6b;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  height: 600px;
+  color: #f5a40d;
+  background-image: url(./pictures/mobilemain2.png);
+}
+
+.main h1 {
+  padding: 50px 0 0 50px;
+  margin: 0;
+  font-size: 32px;
+}
+
+.main p {
+  padding: 0  0 30px 70px;
+  color: red;
+  font-weight: bold;
+  font-size: 58px;
+  margin: 10px 0 0 0;
+}
