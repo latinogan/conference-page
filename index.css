@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap');
 
 .topnav {
   overflow: hidden;
@@ -29,8 +30,7 @@
   top: 0;
   left: 0;
   padding-top: 80px;
-
-  /* background-color:  #1c1a19 ; */
+  background-color: #1c1a19;
 }
 
 .topnav a {
@@ -42,21 +42,17 @@
 
 #Links a {
   border-bottom: solid 1px #6f6c6b;
-
-  /* font-family: "Inter", sans-serif; */
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 22px;
   line-height: 24px;
   text-decoration: none;
   color: #fff;
   width: 320px;
-
-  /* background-color:  #1c1a19 ; */
 }
 
 .main {
-  
   height: 530px;
   color: #f5a40d;
   background-image: url(./pictures/mobilemain2.png);
@@ -123,7 +119,7 @@
   background-image: url(./pictures/background.png);
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
-  height: 900px;
+  height: 1020px;
   text-align: center;
   color: #fff;
 }
@@ -179,25 +175,15 @@
   }
 
   .topnav #Links {
-    width: 50%;
+    width: 40%;
     display: flex;
-    justify-content: space-around;
-
-    /*  align-items: center; */
-    color: #f2f2f2;
     padding: 10px 0 0 0;
     margin-right: 110px;
     font-family: "Inter", sans-serif;
     font-size: 15px;
     font-style: normal;
-
-
-    /* line-height: 20px;
-      height: 42px; */
     position: static;
     background: none;
-
-    /*  width: 26%; */
   }
 
   #Links a {
