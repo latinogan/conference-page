@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .topnav {
   overflow: hidden;
   display: flex;
@@ -12,7 +14,7 @@
 }
 
 .active {
-  margin-right: 120px;
+  margin-right: 60px;
 }
 
 .fa-bars {
@@ -23,45 +25,264 @@
   display: none;
   height: 100vh;
   position: fixed;
-  width: 100%;
+  width: 450px;
   top: 0;
+  left: 0;
   padding-top: 80px;
+
+  /* background-color:  #1c1a19 ; */
 }
 
 .topnav a {
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 11px;
   display: block;
 }
 
 #Links a {
   border-bottom: solid 1px #6f6c6b;
-  font-family: "Inter", sans-serif;
+
+  /* font-family: "Inter", sans-serif; */
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
   text-decoration: none;
+  color: #fff;
+  width: 320px;
+
+  /* background-color:  #1c1a19 ; */
 }
 
 .main {
   width: 100%;
-  height: 600px;
+  height: 530px;
   color: #f5a40d;
   background-image: url(./pictures/mobilemain2.png);
+  background-repeat: no-repeat;
+}
+
+.aboutmain {
+  width: 100%;
+  height: 530px;
+  color: #f5a40d;
+  background-image: url(./pictures/mobilemain2.png);
+  background-repeat: no-repeat;
 }
 
 .main h1 {
-  padding: 50px 0 0 50px;
+  padding: 50px 0 0 20px;
   margin: 0;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .main p {
-  padding: 0  0 30px 70px;
+  padding: 0  0 0 40px;
   color: red;
   font-weight: bold;
-  font-size: 58px;
-  margin: 10px 0 0 0;
+  font-size: 30px;
+  margin: 0;
+}
+
+.aboutmain p {
+  padding: 0  0 0 40px;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.joyfull p {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: rgb(51, 51, 51);
+  margin: 17px 0.75em 0;
+  width: 95%;
+  padding: 1em 0.5em;
+  line-height: 150%;
+  font-size: 13px;
+  height: auto;
+  text-align: justify;
+  word-break: break-all;
+  border: solid 2px #fff;
+}
+
+.joyfull .dates {
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  padding: 0;
+}
+
+.joyfull .national {
+  margin: 0 0 0 10px;
+  border: none;
+}
+
+.program1 {
+  background-image: url(./pictures/background.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+  height: 900px;
+  text-align: center;
+  color: #fff;
+}
+
+.program1 h2 {
+  justify-content: center;
+  padding-top: 60px;
+  margin-bottom: 0;
+}
+
+.guideline {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid #ef513c;
+  margin: 0 auto 54px;
+}
+
+.tecnologys {
+  display: flex;
+  justify-content: space-around;
+  width: 93%;
+  margin-left: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
+}
+
+.tecnologys h3 {
+  color: #d12626;
+  padding-top: 15px;
+}
+
+.summit button {
+  height: 50px;
+  background-color: #d12626;
+  color: #fff;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 50px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 900px) {
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 92px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .topnav #Links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+    /*  align-items: center; */
+    color: #f2f2f2;
+    padding: 10px 0 0 0;
+    margin-right: 110px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+
+
+    /* line-height: 20px;
+      height: 42px; */
+    position: static;
+    background: none;
+
+    /*  width: 26%; */
+  }
+
+  #Links a {
+    color: black;
+  }
+
+  .active {
+    margin-left: 50px;
+  }
+
+  .main {
+    background-image: url(./pictures/mobilemain.png);
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .aboutmain {
+    background-image: url(./pictures/mobilemain.png);
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .main h1 {
+    padding: 50px 0 0 70px;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .aboutmain h1 {
+    padding: 50px 0 0 450px;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .main p {
+    padding: 0  0 0 80px;
+    color: red;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0;
+  }
+
+  .aboutmain p {
+    padding: 0  0 0 350px;
+    color: red;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0;
+  }
+
+  .joyfull p {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(51, 51, 51);
+    margin: 17px 0.75em 0 70px;
+    width: 95%;
+    padding: 1em 0.5em;
+    line-height: 150%;
+    font-size: 13px;
+    height: auto;
+    text-align: justify;
+    word-break: break-all;
+    border: solid 2px #fff;
+  }
+
+  .program {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .program1 {
+    text-align: center;
+    height: 600px;
+  }
+
+  .tecnologys {
+    display: block;
+    width: 200px;
+  }
+
+  .tecnologys img {
+    padding-top: 10px;
+  }
+
+  .tecnologys h3 {
+    margin-top: 0;
+  }
 }
