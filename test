@@ -1,0 +1,47 @@
+@media (min-width: 900px) {
+    .topnav {
+    display: flex;
+      justify-content: space-between;
+      color: #fff;
+      height: 92px;
+      }
+      nav {
+        display: none;
+      }
+   
+      .topnav #Links {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+      /*  align-items: center;*/
+        color: #f2f2f2;
+        padding: 10px 0 0 0;
+        margin-right: 110px;
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+       font-style: normal;
+        font-weight: 0;
+    
+       /* line-height: 20px;
+        height: 42px;*/
+        position: static;
+        background: none;
+      /*  width: 26%;*/
+      }
+      #Links a {
+        color:black;
+      }
+      .active {
+        margin-left:50px;
+      }
+      .main p {
+        padding: 0  0 30px 70px;
+        color: red;
+        font-weight: bold;
+        font-size: 80px;
+        margin: 10px 0 0 0;
+        width:900px;
+      }
+
+
+}
