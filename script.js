@@ -80,6 +80,5 @@ client.forEach((result) => {
     <p>${result.experience}    </p>
     </div>    
   `;
-  // Append newyly created card element to the container
   container.innerHTML += asosiado;
 });
