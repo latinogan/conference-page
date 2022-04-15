@@ -10,6 +10,7 @@
   justify-content: space-around;
   background-image: url(./pictures/mobilemain2.png);
   background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .navbar-container {
@@ -465,7 +466,7 @@ nav img {
   }
 
   .main {
-    background-image: url(./pictures/mobilemain.png);
+   background-image: url(./pictures/mobilemain.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
