@@ -78,13 +78,13 @@ nav img {
 
 .main {
   height: 420px;
-  color: #f5a40d;
   background-image: url(./pictures/mobilemain2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .main h1 {
+  color: #ec5242;
   padding: 50px 0 0 20px;
   margin: 0;
   font-size: 30px;
@@ -245,13 +245,13 @@ nav img {
 /* about */
 .aboutmain {
   height: 430px;
-  color: #f5a40d;
   background-image: url(./pictures/mobilemain2.png);
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .aboutmain h1 {
+  color: #ec5242;
   padding: 50px 0 0 20px;
   margin: 0;
   font-size: 35px;
