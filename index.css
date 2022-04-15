@@ -640,6 +640,8 @@ nav img {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    color: #ffffff;
+    background-color: #272a31;
   }
 
   .capstone p {
