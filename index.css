@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,900&family=Montserrat:wght@400;600;800;900&display=swap');
+
+* {
+  margin-right: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(./pictures/mobilemain2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-container {
+  display: none;
+}
+
+.active {
+  color: transparent;
+  margin-right: 240px;
+}
+
+.topnav #Links {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  width: 450px;
+  top: 0;
+  left: 0;
+  padding-top: 80px;
+  background-color: #1c1a19;
+  font-family: 'Lato', sans-serif;
+}
+
+nav img {
+  margin-right: 100px;
+}
+
+.topnav img {
+  position: fixed;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#Links ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+}
+
+#Links a {
+  border-bottom: solid 1px #6f6c6b;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  color: #fff;
+  width: 320px;
+  font-family: 'Lato', sans-serif;
+}
+
+.hamburguer {
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main {
+  height: 420px;
+  background-image: url(./pictures/mobilemain2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main h1 {
+  color: #ec5242;
+  padding: 50px 0 0 20px;
+  margin: 0;
+  font-size: 30px;
+}
+
+.main p {
+  padding: 0  0 0 40px;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+  font-family: 'cocogoose', sans-serif;
+  color: transparent;
+  background: url('./pictures/text5.jpg') repeat;
+  -webkit-background-clip: text;
+}
+
+.logo img {
+  width: 30%;
+  height: 100px;
+  margin: 10px;
+  max-width: 200px;
+}
+
+.joyfull p {
+  font-family: 'Lato', sans-serif;
+  color: rgb(51, 51, 51);
+  margin: 17px 0.75em 0;
+  width: 85%;
+  padding: 1em 0.5em;
+  line-height: 150%;
+  font-size: 0.8rem;
+  height: auto;
+  text-align: justify;
+  word-break: break-all;
+  border: solid 2px #fff;
+}
+
+.joyfull .dates {
+  font-weight: 900;
+  font-size: 1.5rem;
+  border: none;
+  padding: 0;
+  letter-spacing: 2px;
+  font-family: 'cocogoose', sans-serif;
+}
+
+.joyfull .national {
+  margin: 0 0 0 10px;
+  border: none;
+  width: 70%;
+  font-family: 'Lato', sans-serif;
+}
+
+.program1 {
+  background-image: url(./pictures/background.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+  height: 1040px;
+  text-align: center;
+  color: #fff;
+}
+
+.program1 h2 {
+  justify-content: center;
+  padding-top: 60px;
+  margin-bottom: 0;
+}
+
+.guideline {
+  width: 100px;
+  height: 16px;
+  border-bottom: 1px solid #ef513c;
+  margin: 0 auto 54px;
+}
+
+.tecnologys {
+  display: flex;
+  justify-content: space-around;
+  width: 93%;
+  margin-left: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
+}
+
+.tecnologys h3 {
+  color: #d12626;
+  padding-top: 15px;
+}
+
+.summit button {
+  height: 50px;
+  background-color: #d12626;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.costumer {
+  text-align: center;
+}
+
+.costumer h2 {
+  font-family: 'cocogoose', sans-serif;
+  margin-bottom: 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 180px  auto;
+  grid-auto-rows: 200px;
+  box-sizing: border-box;
+}
+
+.voice h3 {
+  margin-bottom: 10px;
+}
+
+.content .voice {
+  padding-left: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.content h5 {
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.content h3 {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.content p {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.assosiates {
+  background-image: url(./pictures/background.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+  text-align: center;
+  height: 550px;
+  color: #fff;
+}
+
+.assosiates h2 {
+  padding-top: 50px;
+}
+
+.end1 {
+  color: #272a31;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 200px;
+}
+
+/* about */
+.aboutmain {
+  height: 430px;
+  background-image: url(./pictures/mobilemain2.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.aboutmain h1 {
+  color: #ec5242;
+  padding: 50px 0 0 20px;
+  margin: 0;
+  font-size: 35px;
+}
+
+.aboutmain p {
+  padding: 0  0 0 30px;
+  color: #ec5242;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0 0 0 50px;
+  font-family: 'cocogoose', sans-serif;
+}
+
+.joyful p {
+  font-family: 'Lato', sans-serif;
+  color: rgb(51, 51, 51);
+  margin: 17px 0.75em 0 50px;
+  padding: 1em 0.5em;
+  line-height: 150%;
+  font-size: 0.8rem;
+  background-color: #fff;
+}
+
+.joyful .national {
+  margin: 0;
+  padding: 0 0 0 0;
+  text-align: center;
+}
+
+.joyful .dates {
+  text-align: center;
+}
+
+.vehicle {
+  text-align: center;
+  height: 100px;
+  margin-top: 60px;
+}
+
+.vehicle h2 {
+  margin-bottom: 0;
+}
+
+.cars {
+  text-align: center;
+}
+
+.visionavtr {
+  margin-top: 100px;
+  background-image: url(./pictures/mercedescar1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  color: #fff;
+  padding-top: 0;
+  height: 250px;
+  font-size: 25px;
+}
+
+.maserati {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url(./pictures/maserati.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  color: #fff;
+  padding-top: 120px;
+  height: 250px;
+  font-size: 25px;
+}
+
+.cooper {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url(./pictures/cooper.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+  color: #fff;
+  padding-top: 120px;
+  height: 200px;
+  font-size: 25px;
+}
+
+.end {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.final h5 {
+  font-size: 27px;
+  margin-top: 20px;
+}
+
+.final1 h5 {
+  font-size: 27px;
+  margin-top: 20px;
+}
+
+.capstone p {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.capstone1 p {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+@media (min-width: 786px) {
+  .navbar-container img {
+    margin-left: 40px;
+    margin-top: 5px;
+    height: 20px;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+    color: #fff;
+    height: 30px;
+    padding: 5px 10%;
+  }
+
+  .active img {
+    display: flex;
+  }
+
+  .navbar-container ul {
+    display: flex;
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 5px 0 0 0;
+  }
+
+  .navbar-container li {
+    padding-left: 30px;
+  }
+
+  #Links ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 77px;
+    background: none;
+    border-bottom: solid 1px #6f6c6b;
+  }
+
+  .topnav img {
+    position: static;
+  }
+
+  .close {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .topnav #Links {
+    /* width: 40%; */
+    display: flex;
+    padding: 0 0 0 0;
+    margin-right: 160px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    position: static;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: normal;
+    background: none;
+  }
+
+  /* #Links .rentcar {
+    border: solid 3px red;
+    height: 20px;
+    color: #fff;
+    background-color: blue;
+  } */
+
+  #Links a {
+    color: black;
+    width: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    line-height: 24px;
+    border: none;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: normal;
+    background: none;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .active {
+    display: flex;
+    color: black;
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .main {
+    background-image: url(./pictures/mobilemain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+
+  .main h1 {
+    padding: 50px 0 0 70px;
+    margin: 0;
+    font-size: 40px;
+  }
+
+  #Links .rent {
+    border: solid 4px rgb(209, 26, 26);
+    font-size: 12px;
+    color: red;
+    height: 20px;
+  }
+
+  .main p {
+    padding: 0  0 0 80px;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0;
+  }
+
+  .joyfull p {
+    font-family: 'Lato', sans-serif;
+    color: rgb(51, 51, 51);
+    margin: 17px 0.75em 0 70px;
+    width: 50%;
+    padding: 1em 0.5em;
+    line-height: 150%;
+    height: auto;
+    text-align: justify;
+    word-break: break-all;
+    border: solid 2px #fff;
+    font-size: 15px;
+  }
+
+  .joyfull .national {
+    margin-left: 60px;
+  }
+
+  .program {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .program1 {
+    text-align: center;
+    height: 600px;
+  }
+
+  .tecnologys {
+    display: block;
+    width: 200px;
+  }
+
+  .tecnologys img {
+    padding-top: 10px;
+  }
+
+  .tecnologys h3 {
+    margin-top: 0;
+  }
+
+  .costumer h2 {
+    margin-top: 80px;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 180px  auto 180px  auto;
+    grid-auto-rows: 200px;
+    box-sizing: border-box;
+  }
+
+  .assosiates h2 {
+    font-size: 35px;
+  }
+
+  .logo {
+    margin-top: 80px;
+  }
+
+  .logo img {
+    width: 30%;
+    height: 100px;
+    margin: 17px;
+    max-width: 200px;
+  }
+
+  /* about */
+  .aboutmain {
+    background-image: url(./pictures/background5.png);
+    background-color: rgb(247, 247, 248);
+    background-size: contain;
+    background-position: center center;
+    height: auto;
+    padding: 10% 20% 5%;
+    margin: 30px auto;
+  }
+
+  .vehicle h2 {
+    margin-bottom: 0;
+  }
+
+  .visionavtr {
+    margin-top: 100px;
+    margin-bottom: 0;
+    background-image: url(./pictures/mercedescar1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    color: #fff;
+    padding-top: 40px;
+    height: 250px;
+    font-size: 25px;
+    grid-column-start: 3;
+  }
+
+  .maserati {
+    margin-top: 90px;
+    margin-bottom: 0;
+    background-image: url(./pictures/maserati.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    color: #fff;
+    padding-top: 150px;
+    height: 250px;
+    font-size: 25px;
+    grid-column-start: 4;
+  }
+
+  .cooper {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url(./pictures/cooper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    color: #fff;
+    padding-top: 120px;
+    height: 200px;
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .cars {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 30px;
+  }
+
+  .end1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .end {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #272a31;
+  }
+
+  .capstone p {
+    padding-bottom: 50px;
+  }
+}
