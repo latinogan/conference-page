@@ -116,7 +116,7 @@ nav img {
   width: 85%;
   padding: 1em 0.5em;
   line-height: 150%;
-  font-size: 13px;
+  font-size: 0.8rem;
   height: auto;
   text-align: justify;
   word-break: break-all;
@@ -125,16 +125,18 @@ nav img {
 
 .joyfull .dates {
   font-weight: 900;
-  font-size: 25px;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
   border: none;
   padding: 0;
+  letter-spacing: 2px;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .joyfull .national {
   margin: 0 0 0 10px;
   border: none;
   width: 70%;
+  font-family: 'Lato', sans-serif;
 }
 
 .program1 {
@@ -212,14 +214,17 @@ nav img {
 
 .content h5 {
   margin: 5px;
+  margin-left: 20px;
 }
 
 .content h3 {
   margin-top: 5px;
+  margin-left: 20px;
 }
 
 .content p {
   margin-top: 5px;
+  margin-left: 20px;
 }
 
 .assosiates {
@@ -273,7 +278,7 @@ nav img {
   margin: 17px 0.75em 0 50px;
   padding: 1em 0.5em;
   line-height: 150%;
-  font-size: 13px;
+  font-size: 0.8rem;
   background-color: #fff;
 }
 
@@ -435,12 +440,12 @@ nav img {
     background: none;
   }
 
-  #Links .rentcar {
+  /* #Links .rentcar {
     border: solid 3px red;
     height: 20px;
     color: #fff;
     background-color: blue;
-  }
+  } */
 
   #Links a {
     color: black;
@@ -479,9 +484,10 @@ nav img {
   }
 
   #Links .rent {
-    border: solid 1px rgb(209, 26, 26);
+    border: solid 4px rgb(209, 26, 26);
     font-size: 12px;
     color: red;
+    height: 20px;
   }
 
   .main p {

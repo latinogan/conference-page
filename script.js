@@ -63,7 +63,7 @@ const client = [
   },
   {
     img: './pictures/client6.png" class=person alt="client1',
-    name: 'Abraham chantre.',
+    name: 'Nicole chantre.',
     city: '.Ohio',
     experience: 'treavelers car rentals was a great chiose good costumer service and also they are aware of the costumer was a great expirience ',
   },
