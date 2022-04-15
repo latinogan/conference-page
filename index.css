@@ -4,12 +4,11 @@
   margin-right: 0;
 }
 
-
 .topnav {
   overflow: hidden;
   display: flex;
   justify-content: space-around;
- background-image: url(./pictures/mobilemain2.png);
+  background-image: url(./pictures/mobilemain2.png);
   background-repeat: no-repeat;
 }
 
@@ -121,7 +120,6 @@ nav img {
   text-align: justify;
   word-break: break-all;
   border: solid 2px #fff;
-  
 }
 
 .joyfull .dates {
@@ -243,7 +241,6 @@ nav img {
   text-align: center;
   height: 200px;
 }
-
 
 /* about */
 .aboutmain {
@@ -561,7 +558,6 @@ nav img {
     max-width: 200px;
   }
 
-
   /* about */
   .aboutmain {
     background-image: url(./pictures/background5.png);
@@ -587,7 +583,7 @@ nav img {
     padding-top: 40px;
     height: 250px;
     font-size: 25px;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
 
   .maserati {
@@ -600,7 +596,7 @@ nav img {
     padding-top: 150px;
     height: 250px;
     font-size: 25px;
-    grid-column-start: 3;
+    grid-column-start: 4;
   }
 
   .cooper {
@@ -613,15 +609,16 @@ nav img {
     padding-top: 120px;
     height: 200px;
     font-size: 25px;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
   }
 
   .cars {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
     grid-column-gap: 30px;
   }
+
   .end1 {
     display: flex;
     gap: 30px;

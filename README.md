@@ -2,7 +2,7 @@
 
 # Project Name
 
-> SKELETON MOBILE VERSION.
+> Travelers Car Rentals CAPSTONE PROJECT 1.
 
 
 ## Built With
